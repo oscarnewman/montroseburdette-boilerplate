@@ -115,9 +115,19 @@ footer {
 }
 
 a.email {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 200;
+
+  @media (min-width: 350px) {
+    font-size: 22px;
+  }
+
+  @media (min-width: 400px) {
+    font-size: 25px;
+  }
 }
+
+
 
 @media (min-width: 600px) {
   .left, .right {
