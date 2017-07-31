@@ -1,0 +1,27 @@
+.gallery {
+  padding: .5vw;
+  margin: -1vw;
+  font-size: 0;
+  flex-flow: row wrap;
+  display: flex;
+  margin-bottom: 80px;
+
+  > .image {
+    display: block;
+    flex: auto;
+    width: 200px;
+    margin: .5vw;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery .image { margin-bottom: 10px; }
+  // .gallery { padding: 0; }
+
+}

@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="styles/app.css">
     <!-- endbuild -->
 
+    <link rel="stylesheet" href="vendor/photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="vendor/photoswipe/default-skin/default-skin.css">
+
   </head>
   <body>
     <!--[if IE]>
@@ -68,6 +71,27 @@
     </div>
   </main>
 
+  <section class="gallery">
+    <a href="images/gallery/gallery1.jpg" class="image" data-size="1022x768">
+      <img src="images/gallery/thumbs/gallery1.jpg" alt="">
+    </a>
+    <a href="images/gallery/gallery2.jpg" class="image" data-size="1024x768">
+      <img src="images/gallery/thumbs/gallery2.jpg" alt="">
+    </a>
+    <a href="images/gallery/gallery3.jpg" class="image" data-size="2616x1967">
+      <img src="images/gallery/thumbs/gallery3.jpg" alt="">
+    </a>
+    <a href="images/gallery/gallery4.jpg" class="image" data-size="2276x1711">
+      <img src="images/gallery/thumbs/gallery4.jpg" alt="">
+    </a>
+    <a href="images/gallery/gallery5.jpg" class="image" data-size="2744x2063">
+      <img src="images/gallery/thumbs/gallery5.jpg" alt="">
+    </a>
+    <a href="images/gallery/gallery6.jpg" class="image" data-size="2676x2012">
+      <img src="images/gallery/thumbs/gallery6.jpg" alt="">
+    </a>
+  </section>
+
   <footer>
     <h2 id="contact">Get in touch</h2>
     <a href="mailto:questions@montroseburdette.com" target="_blank" class="email">questions@montroseburdette.com</a>
@@ -88,8 +112,17 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+    <script src="vendor/photoswipe/photoswipe.min.js"></script>
+    <script src="vendor/photoswipe/photoswipe-ui-default.min.js"></script>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp"aria-hidden="true"role="dialog"tabindex="-1"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close"title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"title="Share"></button> <button class="pswp__button pswp__button--fs"title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left"title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right"title="Next (arrow right)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div>
   </body>
 </html>
