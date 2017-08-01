@@ -97,19 +97,16 @@
     <a href="mailto:questions@montroseburdette.com" target="_blank" class="email">questions@montroseburdette.com</a>
   </footer>
 
-    <!-- Firebase Analytics -->
-    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <!-- Google Analytics -->
     <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyCvEDE9tO672Spd3A-dFeuHWMJNWjuT9is",
-        authDomain: "montrose-burdette.firebaseapp.com",
-        databaseURL: "https://montrose-burdette.firebaseio.com",
-        projectId: "montrose-burdette",
-        storageBucket: "",
-        messagingSenderId: "50081423375"
-      };
-      firebase.initializeApp(config);
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-103791320-1', 'auto');
+      ga('send', 'pageview');
+
     </script>
 
     <!-- build:js scripts/vendor.js -->
